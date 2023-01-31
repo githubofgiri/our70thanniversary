@@ -1,0 +1,190 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+
+/* Banner Area */
+.bannerSection {
+    position: relative;
+}
+
+.bannerSection .bgArea {
+    position: relative;
+}
+
+.bannerSection .bgArea::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.bannerSection .bgArea img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bannerSection .contArea {
+    background-color: #000000a1;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 30px 15px;
+}
+
+.bannerSection .contArea h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.bannerSection .contArea .p1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Banner Area End */
+
+
+/* Welcome Area */
+.welcomeSection {
+    padding: 60px 0;
+}
+
+.welcomeSection .imgArea img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.welcomeSection .contArea h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.welcomeSection .contArea .p1 {
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Welcome Area End */
+
+
+/* Gallery Area */
+.galleryArea {
+    padding: 60px 0;
+}
+
+.galleryArea .headingArea {
+    text-align: center;
+    position: relative;
+}
+
+.galleryArea .headingArea h2::before {
+    content: '';
+    position: absolute;
+    background-color: #252525;
+    height: 2px;
+    width: 70px;
+    left: 33%;
+    top: 22px;
+}
+
+.galleryArea .headingArea h2::after {
+    content: '';
+    position: absolute;
+    background-color: #252525;
+    height: 2px;
+    width: 70px;
+    margin-left: 16px;
+    top: 22px;
+}
+
+.galleryArea img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.galleryArea .videoArea {
+    position: relative;
+}
+
+.galleryArea .videoArea .img1 {
+    height: 360px;
+    position: relative;
+}
+
+.galleryArea .videoArea .img2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* Gallery Area End */
+
+
+/* Introduction Area */
+.introductionSection {
+    padding: 60px 0;
+}
+
+.introductionSection .contArea h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.introductionSection .contArea .p1 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.introductionSection .contArea .p2 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.introductionSection .imgArea img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Introduction Area End */
+
+
+/* Footer Area */
+.footerSection {
+    background-color: #b18262;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footerSection .p1 {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Footer Area End */
