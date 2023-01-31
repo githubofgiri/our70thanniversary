@@ -43,7 +43,7 @@ body {
 }
 @media (max-width: 991px){
     .bannerSection .contArea {
-    width: 100%
+    width: 100%;
     padding: 12px;
 }
 }
